@@ -1,15 +1,16 @@
 /* Buttons */
 
 .button-list {
-    margin-bottom: 50px;
-    display: flex;
-    justify-content: center;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
 }
 
-.button-item {
-    margin-right: 8px;
-}
+.button-list__item {
+  margin-right: 8px;
 
-.button-item:nth-child(5n) {
+
+  &:nth-child(5n) {
     margin-right: 0;
+  }
 }

@@ -1,118 +1,118 @@
 /* Footer */
 
 .footer-container {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    background-color: var(--dark-bg-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--dark-bg-color);
 }
 
 .page-footer__address {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .page-footer__location {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
 
 .nav-footer {
-    margin-top: 9px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+  margin-top: 9px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .page-footer {
-    display: flex;
-    align-items: baseline;
+  display: flex;
+  align-items: baseline;
 }
 
 .footer-links-title {
-    color: #FFFFFF;
-    margin-bottom: 20px;
+  color: #ffffff;
+  margin-bottom: 20px;
 }
 
 .social-links-footer {
-    margin-left: 70px;
+  margin-left: 70px;
 }
 
 .social-links-footer .social-icons__link {
-    fill: var(--main-bg-color);
-    background: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+  fill: var(--main-bg-color);
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
 }
 
 .social-links-footer .social-icons__link:hover,
 .social-links-footer .social-icons__link:focus {
-    background-color: var(--hover-color);
+  background-color: var(--hover-color);
 }
 
 .social-links-footer .social-icons__item:not(:last-child) {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 .nav-footer .nav-footer__item:not(:last-child) {
-    margin-bottom: 9px;
+  margin-bottom: 9px;
 }
 
 .subscription {
-    display: flex;
-    margin-left: 93px;
+  display: flex;
+  margin-left: 93px;
 }
 
 .subscription__field .subscription__title {
-    margin-bottom: 20px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--main-bg-color);
+  margin-bottom: 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-bg-color);
 }
 
 .subscription__input {
-    display: inline-block;
-    padding: 15px 295px 15px 16px;
-    width: 358px;
-    height: 50px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    background: transparent;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    border-radius: 4px;
-    color: var(--main-bg-color);
+  display: inline-block;
+  padding: 15px 295px 15px 16px;
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: transparent;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  color: var(--main-bg-color);
 }
 
 .subscription__container.subscription__input::placeholder {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 1.25;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .hero__button.subscription__btn {
-    position: relative;
-    margin-left: 12px;
-    padding: 10px 62px 10px 29px;
-    width: 200px;
-    height: 50px;
+  position: relative;
+  margin-left: 12px;
+  padding: 10px 62px 10px 29px;
+  width: 200px;
+  height: 50px;
 }
 
 .subscription__send-svg {
-    position: absolute;
-    top: 50%;
-    right: 28px;
-    transform: translateY(-50%);
-    width: 24px;
-    height: 24px;
+  position: absolute;
+  top: 50%;
+  right: 28px;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
 }
